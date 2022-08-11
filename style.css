@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#collection{
+    padding: 10px;
+    margin: 10px;
+    background: orange;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.item{
+    z-index: 100;
+    aspect-ratio: 1/1;
+    text-align: center;
+    background: red;
+}
+#form{
+    text-align: center;
+    margin: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 10px;
+}
